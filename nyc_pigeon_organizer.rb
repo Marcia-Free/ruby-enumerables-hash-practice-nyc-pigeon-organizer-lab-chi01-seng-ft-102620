@@ -15,8 +15,8 @@ def nyc_pigeon_organizer(data)
           !f_array[name][key] = []
         end
         f_array[name][key].push(inner_key)
+      end
     end
-  end
   
   end
     # binding.pry
