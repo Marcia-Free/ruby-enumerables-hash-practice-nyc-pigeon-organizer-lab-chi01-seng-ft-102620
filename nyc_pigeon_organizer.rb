@@ -1,9 +1,8 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  pigeon_hash = {}
-  
-  data.each_with_object({}) do |(key, value), f_array|
+
+ name_hash = data.each_with_object({}) do |(key, value), f_array|
     f_array[key] = value
     
     value.each do |inner_key, names|
@@ -17,6 +16,7 @@ def nyc_pigeon_organizer(data)
           f_array[name][key] = []
        # binding.pry
         end
+        
 
     end
     f_array
