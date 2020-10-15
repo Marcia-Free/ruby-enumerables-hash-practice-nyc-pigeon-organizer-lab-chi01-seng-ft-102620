@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-    f_array
+    name_hash
    # binding.pry
   end
   
